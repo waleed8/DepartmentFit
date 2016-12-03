@@ -1,9 +1,6 @@
 package com.mans.fci.departmentfit;
 
-import com.bignerdranch.expandablerecyclerview.Model.ParentListItem;
 
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by Developer on 28/10/2016.
@@ -111,12 +108,5 @@ public class DepartmentCalculator {
         m_mainActivity.UpdateCirclarProgressBars();
     }
     //____________________________________
-    public List<ParentListItem> getCourseAsParentList()
-    {
-        List<ParentListItem> list = new ArrayList<ParentListItem>();
-        for(ParentListItem p : this.m_FCICourses)
-            list.add(p);
 
-        return list;
-    }
 }

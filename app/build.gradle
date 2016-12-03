@@ -46,5 +46,5 @@ dependencies {
     //test 2
     //test 3
     //https://bignerdranch.github.io/expandable-recycler-view/
-    compile 'com.bignerdranch.android:expandablerecyclerview:2.1.1'
+    //compile 'com.bignerdranch.android:expandablerecyclerview:2.1.1'
 }

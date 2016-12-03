@@ -1,6 +1,5 @@
 package com.mans.fci.departmentfit;
 
-import com.bignerdranch.expandablerecyclerview.Model.ParentListItem;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +8,7 @@ import java.util.List;
  * Created by Developer on 28/10/2016.
  */
 
-public class CourseObject implements ParentListItem{
+public class CourseObject {
     String CourseName;
     int[] MinLevelsPerDepartment;
     public int m_UserFitness;
@@ -26,13 +25,5 @@ public class CourseObject implements ParentListItem{
         m_ExpandableChildrend.add(new CourseMinLevelForDeptChild("Information Systems",minLevelsPerDepartment[2]));
     }
 
-    @Override
-    public List<CourseMinLevelForDeptChild> getChildItemList() {
-        return m_ExpandableChildrend;
-    }
 
-    @Override
-    public boolean isInitiallyExpanded() {
-        return false;
-    }
 }
