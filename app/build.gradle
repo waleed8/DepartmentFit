@@ -42,6 +42,7 @@ dependencies {
     //https://github.com/thoughtbot/expandable-recycler-view
     //compile 'com.thoughtbot:expandablerecyclerview:1.1'
 
+    //test
     //https://bignerdranch.github.io/expandable-recycler-view/
     compile 'com.bignerdranch.android:expandablerecyclerview:2.1.1'
 }
