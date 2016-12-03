@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        deptFitConfig {
+            keyAlias 'dept'
+            keyPassword 'pass_dept'
+            storeFile file('E:/S_Work/PlannedProjects/screenshots-deptFit/deptFit2.jks')
+            storePassword 'pass_dept'
+        }
+    }
+    compileSdkVersion 24
+    buildToolsVersion "24.0.1"
+    defaultConfig {
+        applicationId "com.mans.fci.departmentfit"
+        minSdkVersion 19
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.github.bq:markerseekbar:v0.9'
+    //https://github.com/bq/MarkerSeekBar
+    compile 'com.github.blackfizz:eazegraph:1.2.5l@aar'
+    //circular progress bar https://github.com/jakob-grabner/Circle-Progress-View
+    compile 'com.github.jakob-grabner:Circle-Progress-View:v1.2.9.1'
+    //recycler view and card view
+    compile 'com.android.support:cardview-v7:24.2.1'
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+
+    //https://github.com/thoughtbot/expandable-recycler-view
+    //compile 'com.thoughtbot:expandablerecyclerview:1.1'
+
+    //https://bignerdranch.github.io/expandable-recycler-view/
+    compile 'com.bignerdranch.android:expandablerecyclerview:2.1.1'
+}

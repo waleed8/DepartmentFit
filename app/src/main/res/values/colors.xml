@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#aaaa00</color>
+    <color name="colorCardBackground">#0288d1</color>
+    <color name="colorAppBackground">#648FF3</color>
+
+    <color name="colorTextColor">#0000ff</color>
+    <color name="colorGridBackGround">#fff59d</color>
+    <color name="colorProgressColor">#ff0000</color>
+    <color name="ColorNoteMessageFontColor">#aa0000</color>
+    <color name="ColorNoteMessageBackground">#aaaaff</color>
+</resources>
